@@ -1,20 +1,44 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsMasterConsoleUI", "CollectionsMasterConsoleUI\CollectionsMasterConsoleUI.csproj", "{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsMasterConsoleUI", "CollectionsMasterConsoleUI\CollectionsMasterConsoleUI.csproj", "{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Code", "..\..\AppData\Local\Programs\Microsoft VS Code\Code.exe", "{942DB2B6-4AB7-4878-A5C1-0782E76B9F54}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\drewm\AppData\Local\Programs\Microsoft VS Code\Code.exe
+		RemoteMachine = LAPTOP-BCRT32AH
+		StartingDirectory = C:\Users\drewm\AppData\Local\Programs\Microsoft VS Code
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Debug|x64.Build.0 = Debug|Any CPU
 		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Release|x64.ActiveCfg = Release|Any CPU
+		{718EBBB4-5BF6-46E9-A327-ABD2CFD3C89F}.Release|x64.Build.0 = Release|Any CPU
+		{942DB2B6-4AB7-4878-A5C1-0782E76B9F54}.Debug|Any CPU.ActiveCfg = Release|x64
+		{942DB2B6-4AB7-4878-A5C1-0782E76B9F54}.Debug|x64.ActiveCfg = Release|x64
+		{942DB2B6-4AB7-4878-A5C1-0782E76B9F54}.Release|Any CPU.ActiveCfg = Release|x64
+		{942DB2B6-4AB7-4878-A5C1-0782E76B9F54}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
